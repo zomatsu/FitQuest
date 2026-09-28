@@ -3,6 +3,10 @@ plugins { id 'com.android.application' }
 android {
     namespace 'com.fitquest.app'
     compileSdk 35
+    
+    buildFeatures {
+    buildConfig true
+}
 
     defaultConfig {
         applicationId 'com.fitquest.app'
